@@ -1,0 +1,54 @@
+.about-page h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #5e4632;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 260px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  max-width: 400px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: 'Georgia', serif;
+  color: #4a3a29;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+}
