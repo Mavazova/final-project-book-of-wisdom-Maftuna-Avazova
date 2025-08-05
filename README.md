@@ -42,16 +42,7 @@ The application combines **personal journaling, inspirational quotes, and reflec
 - MySQL Workbench
 - Git & GitHub
 
----
-
-## 📌 Installation & Setup
-
-### **1️⃣ Clone the repository**
-```bash
-git clone https://github.com/Mavazova/final-project-book-of-wisdom-Maftuna-Avazova.git
-cd final-project-book-of-wisdom-Maftuna-Avazova
-
-## 📷 Screenshots
+  ## 📷 Screenshots
 ### Home Page
 ![Home Page]
 <img width="1470" height="956" alt="Screenshot 2025-08-05 at 12 40 29 AM" src="https://github.com/user-attachments/assets/d3a98a58-3123-4abe-8bdc-7ae6f616dd13" />
@@ -71,5 +62,17 @@ cd final-project-book-of-wisdom-Maftuna-Avazova
 
 ## 📌 ERD Diagram
 [View ERD] https://dbdiagram.io/d/Book-of-wisdom-Full-stack-6877e814f413ba35083979eb
+---
+
+---
+
+## 📌 Installation & Setup
+
+### **1️⃣ Clone the repository**
+```bash
+git clone https://github.com/Mavazova/final-project-book-of-wisdom-Maftuna-Avazova.git
+cd final-project-book-of-wisdom-Maftuna-Avazova
+
+
 ---
 
