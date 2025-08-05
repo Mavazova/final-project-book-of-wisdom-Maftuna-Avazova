@@ -1,0 +1,104 @@
+.reflection-page {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* Form styling similar to quotes page */
+.reflection-form {
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.reflection-form h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #444;
+}
+
+.reflection-form textarea {
+  width: 90%;
+  min-height: 100px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 1rem;
+}
+
+.reflection-form button {
+  background: #c59d5f;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.reflection-form button:hover {
+  background: #a87f4f;
+}
+
+/* Reflections list styling */
+.reflection-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.reflection-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem 1.5rem;
+  border-left: 5px solid #d2b48c;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.reflection-message {
+  font-style: italic;
+  margin: 0;
+  color: #4e3a2c;
+}
+
+.reflection-date {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: right;
+  color: #666;
+}
+
+/* Delete button style same as quotes actions */
+.delete-btn {
+  background-color: #5e4632;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #3e2e22;
+}
+
+.empty-message {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}

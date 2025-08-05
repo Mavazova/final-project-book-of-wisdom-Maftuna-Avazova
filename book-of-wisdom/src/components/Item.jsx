@@ -1,21 +1,28 @@
 import React from "react";
 
-
-
- function Item({ quote, onDelete, onToggleFavorite }) {
+function Item({ quote, onDelete, onToggleFavorite }) {
   return (
     <div className="quote-item">
-    
+      {/* Quote text */}
       <blockquote>
-        “{quote.text}”
-        <footer>– {quote.author || 'Unknown'} ({quote.category})</footer>
+        “{quote.content}”
       </blockquote>
 
+      {/* Quote details */}
+      <footer>
+        <span className="quote-category">Category: {quote.category}</span>
+        {quote.source && <span className="quote-source"> | Source: {quote.source}</span>}
+      </footer>
+
+      {/* Actions */}
       <div className="quote-actions">
-        <button onClick={() => onToggleFavorite(quote.id)}>
-          {quote.isFavorite ? '💖 Unfavorite' : '🤍 Favorite'}
+        <button
+          className="favorite-btn"
+          onClick={() => onToggleFavorite(quote.id)}
+        >
+          {quote.favorite ? '💖 Unfavorite' : '🤍 Favorite'}
         </button>
-        <button onClick={() => onDelete(quote.id)}>🗑 Delete</button>
+        <button className="delete-btn" onClick={() => onDelete(quote.id)}>🗑 Delete</button>
       </div>
     </div>
   );

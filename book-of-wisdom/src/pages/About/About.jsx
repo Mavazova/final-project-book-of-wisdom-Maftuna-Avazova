@@ -1,6 +1,6 @@
 import React from 'react';
-import './About.css';
-import aboutImage from '../assets/about.jpg'; 
+import './About.css'; 
+import aboutImage from '../../assets/about.jpg'; // Adjust the path as necessary
 
 function About() {
   return (
